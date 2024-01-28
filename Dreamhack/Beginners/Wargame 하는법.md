@@ -10,7 +10,7 @@ https://dreamhack.io/wargame/challenges/812
 
 <br>
 
-👉** http로 접속하기**
+👉 **http로 접속하기**
 : 브라우저에서 http://Host:Port 링크의 문제 환경에 접속. 대부분의 웹 해킹 문제는 이 방법을 사용
 
 👉 **nc로 접속하기**
