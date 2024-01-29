@@ -3,8 +3,6 @@
 **step 2** map을 사용해서 filteredStudents를 랜더링하기 <br>
 **step 3** 학생이름을 클릭하면 나이와 점수가 alert되도록 하기 <br>
 
-<br>
-
 ### 전체 코드
 
 ```js
