@@ -74,6 +74,8 @@ const filteredStudents = students.filter(function (student) {
 })
 ```
 
+<br>
+
 ## 02 map을 사용하여 필터링된 학생들의 정보를 표시
 
 ```js
@@ -83,6 +85,9 @@ const studentList = filteredStudents.map((student, index) => (
     </li>
 ));
 ```
+
+<br>
+
 ## 03 input에 입력된 값(숫자) 이상의 나이를 가진 학생들만 출력
 ```html
 <div>
