@@ -7,6 +7,7 @@
 <br>
 
 ### Step 1 문제 접속
+<hr>
 https://dreamhack.io/wargame/challenges/812
 ![](https://velog.velcdn.com/images/hrnn00/post/d6d25df6-1f65-4083-80f7-5da52d22b0fa/image.png)
 
