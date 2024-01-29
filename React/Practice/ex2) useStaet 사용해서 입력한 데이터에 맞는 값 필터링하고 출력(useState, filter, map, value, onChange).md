@@ -4,7 +4,7 @@
 **step 3** input에 입력된 값(숫자) 이상의 나이를 가진 학생들만 출력 <br>
 <br>
 
-## 🐱출력화면🐱
+## 출력화면
 <hr>
 
 ![](https://velog.velcdn.com/images/hrnn00/post/2f7fe539-06e0-4b6f-be6e-2f8c8a129975/image.gif)
