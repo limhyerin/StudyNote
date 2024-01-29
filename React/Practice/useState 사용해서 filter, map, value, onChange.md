@@ -1,4 +1,5 @@
->**step 1** filter를 사용하여 minAge 이상의 학생들만 선택 <br>
+>**문제 구현 사항** <br>
+**step 1** filter를 사용하여 minAge 이상의 학생들만 선택 <br>
 **step 2** map을 사용하여 필터링된 학생들의 정보를 표시 <br>
 **step 3** input에 입력된 값(숫자) 이상의 나이를 가진 학생들만 출력 <br>
 
