@@ -8,7 +8,6 @@
 
 ![](https://velog.velcdn.com/images/hrnn00/post/2f7fe539-06e0-4b6f-be6e-2f8c8a129975/image.gif)
 
-<hr>
 <br>
 
 ## 전체 코드
