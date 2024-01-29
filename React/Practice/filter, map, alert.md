@@ -3,6 +3,8 @@
 **step 2** map을 사용해서 filteredStudents를 랜더링하기 <br>
 **step 3** 학생이름을 클릭하면 나이와 점수가 alert되도록 하기 <br>
 
+<br>
+
 ### 전체 코드
 
 ```js
@@ -45,6 +47,7 @@ export default App;
 ```
 
 <hr>
+<br>
 
 ### 01 filter를 사용해서 18세 이상의 학생들만 선택하기
 ![](https://velog.velcdn.com/images/hrnn00/post/966813f5-2984-4100-a301-f2cc4722f5cb/image.png)
@@ -58,6 +61,8 @@ const filteredStudents = students.filter(function(student){
     return student.age >= 18;
 })
 ```
+
+<br>
 
 ### 02 map을 사용해서 filteredStudents를 랜더링하기
 ![](https://velog.velcdn.com/images/hrnn00/post/ce2779cb-1b7b-4157-a18a-02a19d7f74ce/image.png)
@@ -84,6 +89,9 @@ filteredStudents.map(function(student, index) {
    	)
 })
 ```
+
+<br>
+
 ### 03 학생이름을 클릭하면 나이와 점수가 alert되도록 하기
 ```html
 <ul onClick={() => } key={index}>
