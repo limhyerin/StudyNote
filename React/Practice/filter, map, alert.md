@@ -1,6 +1,6 @@
->**step 1** filter를 사용해서 18세 이상의 학생들만 선택하기
-**step 2** map을 사용해서 filteredStudents를 랜더링하기
-**step 3** 학생이름을 클릭하면 나이와 점수가 alert되도록 하기
+>**step 1** filter를 사용해서 18세 이상의 학생들만 선택하기 <br>
+**step 2** map을 사용해서 filteredStudents를 랜더링하기 <br>
+**step 3** 학생이름을 클릭하면 나이와 점수가 alert되도록 하기 <br>
 
 ### 전체 코드
 
