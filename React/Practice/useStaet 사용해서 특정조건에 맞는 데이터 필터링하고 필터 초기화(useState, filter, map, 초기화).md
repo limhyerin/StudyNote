@@ -4,7 +4,7 @@
 **step 3** resetFilter 함수는 필터를 초기화하여 모든 학생들을 표시 <br>
 
 <br>
-
+특정조건에 맞는 데이터 필터링하고 클릭시 나이와 점수 alert 띄우기 (filter, map, alert).md
 ```js
 import React, { useState } from "react";
 
