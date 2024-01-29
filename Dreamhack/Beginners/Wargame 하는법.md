@@ -1,13 +1,13 @@
 > **🌕 content 🌕** <br>
-> step1 문제 접속 <br>
-> step2 서버 생성하기 클릭 <br>
-> step3 리눅스 shell에서 nc 명령어를 이용해서 접속 <br>
-> Step 4 DH{…} 전체를 복사해서 플래그를 제출 <br>
+> [step1 문제 접속](#🍀Step 1 문제 접속) <br>
+> [step2 서버 생성하기 클릭](#🍀Step 2 서버 생성하기 클릭) <br>
+> [step3 리눅스 shell에서 nc 명령어를 이용해서 접속](#🍀Step 3 리눅스 shell에서 nc 명령어를 이용해서 접속) <br>
+> [Step 4 DH{…} 전체를 복사해서 플래그를 제출](#🍀Step 4 DH{…} 전체를 복사해서 플래그를 제출) <br>
 
 <br>
 [보여지는 텍스트](#이동할-위치)
 
-### [🍀Step 1 문제 접속](#step1 문제 접속)
+### 🍀Step 1 문제 접속
 https://dreamhack.io/wargame/challenges/812
 ![](https://velog.velcdn.com/images/hrnn00/post/d6d25df6-1f65-4083-80f7-5da52d22b0fa/image.png)
 
