@@ -3,7 +3,7 @@
 **step 2** map을 사용하여 필터링된 학생들의 정보를 표시 <br>
 **step 3** input에 입력된 값(숫자) 이상의 나이를 가진 학생들만 출력 <br>
 <br>
-
+useStaet 사용해서 특정조건에 맞는 데이터 필터링하고 필터 초기화(useState, filter, map, 초기화).md
 ### 🙉출력화면🙉
 <hr>
 
