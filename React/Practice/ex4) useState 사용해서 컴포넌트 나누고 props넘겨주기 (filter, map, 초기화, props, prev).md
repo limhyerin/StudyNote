@@ -1,12 +1,13 @@
-> **🙉구현 세부 사항🙉**
-**step 1** App.js : 전체 틀, props 넘겨주기
-**step 2** filterButtons.js : 각 버튼에 해당하는 값 filter, map, 초기화
-**step 3** studentList.js : 전체 학생들 이름 리스트 출력
+> **🙉구현 세부 사항🙉** <br>
+**step 1** App.js : 전체 틀, props 넘겨주기 <br>
+**step 2** filterButtons.js : 각 버튼에 해당하는 값 filter, map, 초기화 <br>
+**step 3** studentList.js : 전체 학생들 이름 리스트 출력 <br>
 
 
 ## 구현 화면
 ![](https://velog.velcdn.com/images/hrnn00/post/e23323d2-93c2-4d00-aacc-8910754f72c2/image.png)
 
+<br>
 
 ## 전체 코드
 
@@ -103,6 +104,8 @@ export default StudentList;
 
 ```
 
+<br>
+
 ## 01 App.js : 전체 틀, props 넘겨주기
 ![](https://velog.velcdn.com/images/hrnn00/post/2a30f4d7-60e9-4070-9189-7595c5bab4fd/image.png)
 
@@ -135,6 +138,7 @@ const initialStudents = [
     </div>
   );
 ```
+<br>
 
 ## 02 filterButtons.js : 각 버튼에 해당하는 값 filter, map, 초기화
 ![](https://velog.velcdn.com/images/hrnn00/post/4a0e9ac9-6227-4561-b1d5-e9f44e92fc5f/image.png)
@@ -168,6 +172,8 @@ return (
     </div>
   );
 ```
+<br>
+
 ## 03 studentList.js : 전체 학생들 이름 리스트 출력
 ![](https://velog.velcdn.com/images/hrnn00/post/e23323d2-93c2-4d00-aacc-8910754f72c2/image.png)
 props로 데이터 받아와서 리스트 목록 보여주기
