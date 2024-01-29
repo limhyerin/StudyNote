@@ -6,13 +6,13 @@
 
 <br>
 
-### 🍀Step 1 문제 접속
+###🍀Step 1 문제 접속
 https://dreamhack.io/wargame/challenges/812
 ![](https://velog.velcdn.com/images/hrnn00/post/d6d25df6-1f65-4083-80f7-5da52d22b0fa/image.png)
 
 <br>
 
-### 🍀Step 2 서버 생성하기 클릭
+###🍀Step 2 서버 생성하기 클릭
 ![](https://velog.velcdn.com/images/hrnn00/post/5468722d-d48b-473a-a52b-ffe1c03222e0/image.png)
 ![](https://velog.velcdn.com/images/hrnn00/post/cb9bd637-73a8-4946-8b74-ffdf8a9d5a44/image.png)
 
