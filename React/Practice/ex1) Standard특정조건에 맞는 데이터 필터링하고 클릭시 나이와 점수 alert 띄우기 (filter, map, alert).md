@@ -17,7 +17,7 @@ function App() {
   ];
 
   // TODO: filter를 사용하여 18세 이상의 학생들만 선택하세요.
-  const filteredStudents = students.filter((student) => student.age >= 18);
+const filteredStudent = students.filter((student) => student.age >= 18);
 
   return (
     <div>
@@ -25,22 +25,23 @@ function App() {
       <ul>
         {/* TODO: map을 사용해서 filteredStudents를 여기에 렌더링하세요. */}
         {/* TODO: 학생이름을 클릭하면 나이와 점수가 alert 돼야 해요.*/}
-        {filteredStudents.map((student, index) => {
-          return (
-            <ul onClick={()=> {
-              alert(`나이는 ${student.age}살이고 점수는 ${student.grade}입니다.`);
-            }} key={index}>
-            name : {student.name}
-            </ul>
-          )
-        })}
+        {
+          filteredStudent.map((student, index) => {
+            return (
+              <li key={index} onClick={() => {
+                alert(`나이는 ${student.age}이고 점수는 ${student.grade}입니다`);
+              }}>
+                {student.name}
+              </li> 
+            )
+          })
+        }
       </ul>
     </div>
   );
 }
 
 export default App;
-
 
 ```
 
@@ -63,27 +64,15 @@ const filteredStudents = students.filter(function(student){
 
 ## 02 map을 사용해서 filteredStudents를 랜더링하기
 ![](https://velog.velcdn.com/images/hrnn00/post/ce2779cb-1b7b-4157-a18a-02a19d7f74ce/image.png)
-### 1) 화살표 함수 이용
-
 ```js
-filteredStudents.map((student, index) => {
-	return (
-		<ul onClick={()=> {
-			alert(`나이는 ${student.age}살이고 점수는 ${student.grade}입니다.`);
-		}} key={index}>
-            name : {student.name}
-        </ul>
-    )
-})
-```
-### 2) function 함수 이용
-```js
-filteredStudents.map(function(student, index) {
+filteredStudent.map((student, index) => {
     return (
-		<ul onClick={() => } key={index}>
-			name : {student.name}
-		</ul>
-   	)
+        <li key={index} onClick={() => {
+            alert(`나이는 ${student.age}이고 점수는 ${student.grade}입니다`);
+	}}>
+        {student.name}
+	</li> 
+    )
 })
 ```
 
