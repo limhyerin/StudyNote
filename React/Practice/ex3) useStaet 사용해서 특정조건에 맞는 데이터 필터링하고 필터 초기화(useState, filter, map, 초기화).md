@@ -10,7 +10,7 @@
 import React, { useState } from "react";
 
 function App() {
-  const initialState = [
+  const students = [
     { name: "Alice", age: 17, grade: "A" },
     { name: "Bob", age: 18, grade: "B" },
     { name: "Charlie", age: 16, grade: "C" },
@@ -24,21 +24,6 @@ function App() {
     { name: "Kevin", age: 26, grade: "E" },
     { name: "Linda", age: 27, grade: "F" },
   ];
-
-  const [students, setStudents] = useState([
-    { name: "Alice", age: 17, grade: "A" },
-    { name: "Bob", age: 18, grade: "B" },
-    { name: "Charlie", age: 16, grade: "C" },
-    { name: "Diana", age: 19, grade: "D" },
-    { name: "Elmo", age: 20, grade: "E" },
-    { name: "Fiona", age: 21, grade: "F" },
-    { name: "Gabe", age: 22, grade: "A" },
-    { name: "Hannah", age: 23, grade: "B" },
-    { name: "Irene", age: 24, grade: "C" },
-    { name: "Jenny", age: 25, grade: "D" },
-    { name: "Kevin", age: 26, grade: "E" },
-    { name: "Linda", age: 27, grade: "F" },
-  ]);
   const [filteredStudents, setFilteredStudents] = useState(students);
 
   // TODO: filterByAge 함수를 작성하세요. 이 함수는 최소 나이를 매개변수로 받아 해당 나이 이상인 학생들로 필터링해야 합니다.
@@ -47,6 +32,7 @@ function App() {
      const filtered = filteredStudents.filter((student) => student.age >= minAge);
      setFilteredStudents(filtered);
    };
+  // const filterByAge = student.filter((student) => student.age >= min)
 
   // TODO: filterByGrade 함수를 작성하세요. 이 함수는 특정 학점을 매개변수로 받아 해당 학점의 학생들로 필터링해야 합니다.
   const filterByGrade = (grade) => {
@@ -58,7 +44,7 @@ function App() {
   // TODO: resetFilter 함수를 작성하세요. 이 함수는 필터를 초기화하여 모든 학생들을 표시해야 합니다.
   const resetFilter = () => {
     // 여기에 코드를 작성하세요.
-    setFilteredStudents(initialState);
+    setFilteredStudents(students);
   };
 
   return (
