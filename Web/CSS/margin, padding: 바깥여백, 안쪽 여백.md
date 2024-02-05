@@ -5,7 +5,7 @@ padding의 경우 안쪽의 여백을 지정해줄 때 사용하며 margin은 �
 
 > 순서 : 위 - 오른쪽 - 아래 - 왼쪽
 
-#### 01 안쪽 여백 : padding
+### 01 안쪽 여백 : padding
 - 상단여백 : padding-top
 - 오른쪽 여백 : padding-right
 - 하단 여백 : padding-bottom
@@ -22,7 +22,7 @@ padding의 경우 안쪽의 여백을 지정해줄 때 사용하며 margin은 �
 }
 ```
 
-#### 02 바깥쪽 여백 : margin
+### 02 바깥쪽 여백 : margin
 - 상단여백 : margin-top
 - 오른쪽 여백 : margin-right
 - 하단 여백 : margin-bottom
