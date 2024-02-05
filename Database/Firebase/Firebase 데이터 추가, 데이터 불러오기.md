@@ -1,8 +1,16 @@
+# 🌕 contents 🌕
+01 Firestore란?
+02 Firebase 적용 및 설정 | SDK 라이브러리 가져오기, Firebase 구성 정보 설정, Firebase 인스턴스 초기화
+03 데이터를 추가할 수 있는 코드
+04 파이어베이스에서 값을 가져와서 붙이는 코드
+
+## FireStore란?
 Firestore는 구글 클라우드 기반 NoSQL 데이터 베이스이다 <br/>
 ![image](https://github.com/limhyerin/TIL/assets/70150896/34d77823-5614-470d-a0e9-0b39026ecea7)
 
 <br/>
- 
+
+## Firebase 적용 및 설정
 먼저 script에 type 추가하고
 ```html
 <script type="module">
@@ -34,7 +42,7 @@ const db = getFirestore(app);
 
 <br/>
 
-#### 👉 데이터를 추가할 수 있는 코드
+## 👉 데이터를 추가할 수 있는 코드
 ```js
 $("#id").click(async function () {
     let doc = {};
@@ -62,6 +70,7 @@ $("#postingbtn").click(async function () {
         window.location.reload(); //새로고침
       });
 ```
+
 <br/>
 
 버튼 클릭시 접었다 펴는 기능도, $(document).ready(function() {}) 기능도 의미가 없어져서 다른 것을 할 필요는 없고 그 안에 있는 코드들은 다 빼놓으면 된다.
@@ -73,7 +82,7 @@ $("#savebtn").click(async function () {
 
 <br/>
 
-#### 👉 파이어베이스에서 값을 가져와서 붙이는 코드
+## 👉 파이어베이스에서 값을 가져와서 붙이는 코드
 ```js
 let docs = await getDocs(collection(db, "albums"));
       docs.forEach((doc) => {
