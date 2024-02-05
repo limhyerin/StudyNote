@@ -1,4 +1,4 @@
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/5172b931-86ce-4641-b187-2470a3de353e)# 프로그래머스, 백준 Github 자동 커밋 (BaekjoonHub)
+# 🎃 프로그래머스, 백준 Github 자동 커밋 (BaekjoonHub) 🎃
 
 프로그래머스(programmers)와 백준(baekjoon) 에서 코딩테스트 연습했던 것들을 블로그에 작성하는 게 조금 번거로울때가 있었는데 백준허브를 사용하면 풀었던 문제들이 Github에 자동으로 커밋된다. 백준 허브는 chrome에서 지원하는 확장프로그램으로 크롬 환경에서 진행해야 한다.
 
