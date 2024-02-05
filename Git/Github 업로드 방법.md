@@ -3,7 +3,7 @@ $ git init <br/>
 $ git add README.md <br/>
 $ git commit -m "first commit" <br/>
 $ git branch -M main <br/>
-$ git remote add origin https://github.com/limhyerin/upload_practice.git <br/>
+$ git remote add origin 깃 레포지토리 주소 <br/>
 $ git push -u origin main <br/>
 
 # 🎃 Git 명령어 이용해서 파일 업로드 🎃
