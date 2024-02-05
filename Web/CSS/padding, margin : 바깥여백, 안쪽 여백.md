@@ -17,10 +17,10 @@ padding의 경우 안쪽의 여백을 지정해줄 때 사용하며 margin은 �
 ```css
 {
   ...
-  padding-top : 10px;
-  padding-right : 10px;
-  padding-bottom : 10px;
-  padding-left : 10px;
+  padding-top : 10px,
+  padding-right : 10px,
+  padding-bottom : 10px,
+  padding-left : 10px,
   ...
 }
 ```
