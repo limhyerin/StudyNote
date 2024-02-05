@@ -1,4 +1,4 @@
-# 여백 : padding, margin
+# 여백 | padding, margin
 여백을 지정해주기 위해서 사용하는 두가지 명령어가 있는데 그것은 padding과 margin이다. <br/>
 padding의 경우 안쪽의 여백을 지정해줄 때 사용하며 margin은 바깥쪽 여백을 지정해줄때 사용한다. <br/>
 여기서 margin에 경우 위-오른쪽-아래-왼쪽 순으로 여백 값을 지정해준다.<br/>
