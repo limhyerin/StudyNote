@@ -6,24 +6,26 @@ $("#id").click(async function () {
 })
 ``` 
 
-근데 이렇게 하면 이제 onclick이 안된다. 그래서 onclick을 없애고 id값을 줘서 아래와 같이 바꾸어준다. <br/>
-각각 파이어베이스에 값을 보내는 것 <br/>
+기록하기 버튼에서 평소에는 되는데 script type="module"을 해주었을때 onclick이 안되기때문에 없애주고 id 값을 지정
 ```js
 $("#postingbtn").click(async function () {
         let image = $("#image").val();
         let title = $("#title").val();
-        let content = $("#content").val();
-        let date = $("#date").val();
+        let star = $("#star").val();
+        let comment = $("#comment").val();
 
         let doc = {
           image: image,
           title: title,
-          content: content,
-          date: date,
+          star: star,
+          comment: comment,
         };
-        await addDoc(collection(db, "albums"), doc);
+        await addDoc(collection(db, "movies"), doc);
         alert("저장 완료!");
         window.location.reload(); //새로고침
+      });
+$("#savebtn").click(async function () {
+        $("#postingbox").toggle(); //나와있으면 꺼지고 켜져있으면 꺼지고
       });
 ```
 
