@@ -69,7 +69,13 @@ document.querySelector('ul').children[1].innerText="변경내용"
 </html>
 ```
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/84ff178d-1f82-4356-a670-88eee8c81be2)
-각각의 영역을 수정하는 것을 해볼 것인데, document.querySelector를 사용해서 ul태그의 자식 노드 0번째를 수정해보기도하고 h1 태그의 글자를 수정해보는식으로 접근하고 수정이 가능한 것을 볼 수 있다.<br/>
+
+<br/>
+
+각각의 영역을 수정하는 것을 해볼 것인데, document.querySelector를 사용해서 ul태그의 자식 노드 0번째를 수정해보기도하고 h1 태그의 글자를 수정해보는식으로 접근하고 수정이 가능한 것을 볼 수 있다.
+
+<br/>
+
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/ae8123ca-e741-4048-8aad-91387c6a4762)
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/cb68a06e-e479-40be-8f54-6ce3bcd0198e)
 
