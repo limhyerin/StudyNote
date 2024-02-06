@@ -26,6 +26,8 @@ document.querySelector("#test").children[2];
 document.querySelector("#test").parentElement; // 부모 노드에 접근
 ``` 
 
+<br/>
+
 # 🎃 04 만약 여러개인 태그에 접근할때 🎃
 ```js
 document.getElementByTagName("Li"); // X
@@ -39,7 +41,7 @@ ul 태그의 자식 노드 중 인덱스 1번째에 있는 글자를 변경하�
 document.querySelector('ul').children[1].innerText="변경내용"
 ``` 
 
- 
+<br/> 
 
 # 🎃 05 지난번에 작성해뒀던 페이지에서 DOM 접근 및 제어해보기 🎃
 ```html
