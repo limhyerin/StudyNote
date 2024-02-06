@@ -1,6 +1,8 @@
 # 🎃 font-weight 🎃
 font-weight로 글자의 굵기를 지정한다.
 
+<br/>
+
 ## font-weight: normal | bold | bolder | lighter | number | initial | inherit <br/>
 - normal : 보통 굵기 ( == 숫자 400) <br/>
 - bold : 굵은 굵기 ( == 숫자 700) <br/>
