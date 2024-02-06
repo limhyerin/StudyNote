@@ -1,5 +1,5 @@
 # 🎃 toUpperCase( ), toLowerCase( ) 🎃
-### toUpperCase( )
+### 👉 toUpperCase( )
 문자열을 대문자로 변환하며, 변환 후 두 개의 문자열이 같은지 비교하면 됌
 ```
 let a = "hello world";
@@ -16,7 +16,7 @@ if (a.toUpperCase() === b.toUpperCase()){
 
 <br/>
 
-### toLowerCase( )
+### 👉 toLowerCase( )
 문자열을 소문자로 변환하며, 변환 후 두 개의 문자열이 같은지 비교하면 됌
 ```
 let a = "hello world";
