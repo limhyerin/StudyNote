@@ -7,7 +7,7 @@ html로 코드를 작성하고 브라우저로 실행하면 내가 적용하지 
 
 <br/>
 
-### 링크 주소
+### 코드
 ```css
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
