@@ -14,7 +14,7 @@ VSCode를 사용하다가 테마를 변경하다보니 이것저것 눈에 보�
 
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/fd7278a6-b8fd-4118-bb2b-beb7606d4212)
 
-```
+```json
 // 주석 코드 색상 변경
 "editor.tokenColorCustomizations": {
     "comments": "색상코드입력" //"#828dc093"
