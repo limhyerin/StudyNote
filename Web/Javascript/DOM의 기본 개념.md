@@ -1,4 +1,4 @@
- # DOM(Document Object Modeling)이란?
+ # 🎃 DOM(Document Object Modeling)이란? 🎃
 : HTML 파일(Document)를 Javascript가 알아들을 수 있는 Object 형태로 Modeling한 것
 
 <br/>
