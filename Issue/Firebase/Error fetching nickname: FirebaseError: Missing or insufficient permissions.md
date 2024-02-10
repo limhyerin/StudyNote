@@ -1,9 +1,13 @@
+# 🚨error code🚨
+firebase에서 nickname값을 가져오는 부분에서 발생한 오류
+```
 Error fetching nickname: FirebaseError: Missing or insufficient permissions.
-
-step1 firebase 사이트에서 규칙 클릭
+```
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/6f18f879-d8d9-48a0-92f2-2cf23bccd5a1)
 
-아래 처럼 작성되어 있는 부분을
+<br/>
+
+## 1. 기존 코드
 ```
 rules_version = '2';
 
@@ -16,7 +20,9 @@ service cloud.firestore {
 }
 ```
 
-이렇게 바꾸어준다
+<br/>
+
+## 2. 변경 코드
 ```
 rules_version = '2';
 service cloud.firestore {
