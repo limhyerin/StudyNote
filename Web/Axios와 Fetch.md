@@ -8,8 +8,6 @@ axios를 쓰는 이유? api를 가져올 때
 yarn add axios
 ```
 
-<br/>
-
 ## 🌻json-server 설치🌻
 ```
 yarn add json-server
