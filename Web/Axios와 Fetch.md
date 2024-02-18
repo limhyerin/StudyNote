@@ -13,7 +13,7 @@ yarn add axios
 yarn add json-server
 ```
 
-### 포트 설정
+### 🌻포트 설정🌻
 ```
 yarn json-server --watch db.json --port 4000
 ```
