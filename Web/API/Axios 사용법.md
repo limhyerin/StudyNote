@@ -1,5 +1,5 @@
-# 🎃fetch와 axios🎃
-axios를 쓰는 이유? api를 가져올 때
+# 🎃axios🎃
+api를 가져올 때 fetch와 axios 둘 중에 사용을 함.
 
 <br/>
 
