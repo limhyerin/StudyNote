@@ -1,10 +1,14 @@
 # 🎃fetch와 axios🎃
 axios를 쓰는 이유? api를 가져올 때
 
+<br/>
+
 ## 🌻axios 설치🌻
 ```
 yarn add axios
 ```
+
+<br/>
 
 ## 🌻json-server 설치🌻
 ```
@@ -15,6 +19,8 @@ yarn add json-server
 ```
 yarn json-server --watch db.json --port 4000
 ```
+
+<br/>
 
 ## 🌼db.json🌼
 ```
