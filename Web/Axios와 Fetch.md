@@ -1,91 +1,121 @@
-fetch와 axios
+# 🎃fetch와 axios🎃
 axios를 쓰는 이유? api를 가져올 때
 
+## 🌻axios 설치🌻
 ```
 yarn add axios
 ```
 
+## 🌻json-server 설치🌻
 ```
 yarn add json-server
 ```
 
+### 포트 설정
 ```
 yarn json-server --watch db.json --port 4000
 ```
 
+## 🌼db.json🌼
 ```
-import { useEffect } from 'react';
-import axios from "axios";
-import './App.css';
-
-function App() {
-
-  const fetchTodos = async () => {
-    // const response = await axios.get("http://localhost:3001/todos");
-    // console.log('response', response);
-    const { data } = await axios.get("http://localhost:3001/todos");
-    console.log('data', data);
-  }
-  useEffect(() => {
-    // db로부터 값을 가져올 것이다.
-    fetchTodos();
-  }, [])
-  return (
-    <div>
-      AXIOS
-    </div>
-  );
+// db.json
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "janedoe@example.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "John's first post",
+      "body": "This is the content of John's first post."
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "John's second post",
+      "body": "This is the content of John's second post."
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Jane's first post",
+      "body": "This is the content of Jane's first post."
+    }
+  ]
 }
 
-export default App;
 ```
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/8e898c32-75f1-4d5c-b3ed-47b10380bd62)
 
+<br/>
+
+## 🌼api.js🌼
 ```
-import { useEffect } from 'react';
-import axios from "axios";
-import './App.css';
+import axios from 'axios';
+
+const api = axios.create({
+  baseURL: 'http://localhost:3000', // json-server의 주소를 기본 URL로 설정
+});
+
+api.interceptors.request.use((config) => {
+  console.log('요청합니다.');
+  return config;
+});
+
+api.interceptors.response.use((response) => {
+  console.log('응답입니다.');
+  return response;
+}, (error) => {
+  return Promise.reject(error);
+});
+
+export default api;
+```
+
+<br/>
+
+## 🌼App.jsx🌼
+```
+import React, { useEffect, useState } from 'react';
+import api from './api';
 
 function App() {
+  const [posts, setPosts] = useState([]);
 
-  const fetchTodos = async () => {
-    // const response = await axios.get("http://localhost:3001/todos");
-    // console.log('response', response);
-    const { data } = await axios.get("http://localhost:3001/todos");
-    console.log('data', data);
-  }
   useEffect(() => {
-    // db로부터 값을 가져올 것이다.
-    fetchTodos();
-  }, [])
+    const fetchPosts = async () => {
+      try {
+        const response = await api.get('/posts');
+        setPosts(response.data);
+      } catch (error) {
+        console.error('There was an error!', error);
+      }
+    };
+
+    fetchPosts();
+  }, []);
+
   return (
     <div>
-      AXIOS
-    </div>
-  );
-}
-
-export default App;
-
-```
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/56cbd7f5-dddc-4d0a-8338-c6195f67615c)
-
-
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/5e1aa10c-c341-4f55-ba66-5e52fcb44eb0)
-
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/c2c811c7-8613-424e-bf2f-ad884aa1b82d)
-
-TypeError: Cannot read property 'map' of null
-```
-return (
-    <div>
-      {todos?.map((item) => {
-        return (
-        <div key={item.id}>
-          {item.id} : {item.title}
+      <h1>Posts</h1>
+      {posts.map(post => (
+        <div key={post.id}>
+          <h2>{post.title}</h2>
+          <p>{post.body}</p>
         </div>
-        );
-      })}
+      ))}
     </div>
   );
+}
+
+export default App;
 ```
