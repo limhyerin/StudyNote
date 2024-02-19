@@ -16,7 +16,6 @@
 4. 사용방법이 thunk에 비해 쉽고 직관적 <br/>
 
 <br/>
-<hr/>
 
 ## react query 설치
 ```
@@ -24,6 +23,8 @@ yarn add react-query
 ```
 
 <br/>
+
+<hr/>
 
 ## db.json에 저장된 값 가져오기
 ### db.json 작성 - db.json
