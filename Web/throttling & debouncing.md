@@ -1,5 +1,6 @@
 # 🌻throttling & debouncing🌻
->짧은 시간 간격으로 연속해서 이벤트가 발생했을 때 과도한 이벤트 핸들러 호출을 방지하는 기법
+>짧은 시간 간격으로 연속해서 이벤트가 발생했을 때 과도한 이벤트 핸들러 호출을 방지하는 기법 <br/>
+https://github.com/limhyerin/Throttle_Debounce/tree/main <br/>
 
 <br/>
 
