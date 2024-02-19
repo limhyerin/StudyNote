@@ -215,7 +215,7 @@ mutation.mutate(newTodo);
 
 <br/>
 
-## 🌳근데 문제가 있다. 데이터를 추가하고 새로고침을 해야 추가된 내용이 적용된다🌳
+## 🌳데이터를 추가하고 새로고침을 해야 추가된 내용이 적용되는 문제 해결🌳
 이를 위해서 queryClient.invalidateQueries를 사용해서 todos를 가져와서 적용시키면 된다
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/9e38792c-fbf0-4c50-9d98-5a4aaae6027c)
 
