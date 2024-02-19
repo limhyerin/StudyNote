@@ -60,7 +60,7 @@ yarn add react-query
 
 <br/>
 
-### App.jsx
+#### 🔎App.jsx
 ```js
 import React from "react";
 import Router from "./shared/Router";
@@ -80,7 +80,7 @@ export default App;
 
 <br/>
 
-### todos.js
+#### 🔎todos.js
 잘 불러와지는지 확인하기 위해서 console 찍어봄
 ```
 // axios 요청이 들어가는 모든 모듈
@@ -97,7 +97,9 @@ export { getTodos };
 
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/c4d34f44-c86b-4719-bce3-faf6e2db060a)
 
-TodoList.jsx
+<br/>
+
+#### 🔎TodoList.jsx
 useQuery를 이용하면 isLoading, isError, data 기능을 사용할 수 있는데
 ```
 const {isLoading, isError, data} = useQuery("todos", getTodos);
@@ -114,6 +116,7 @@ const {isLoading, isError, data} = useQuery("todos", getTodos);
 <br/>
 
 ### 🌳여기서 data를 가져올때 안가져와지면 data.data를 해줘본다🌳
+#### 🔎TodoList.jsx
 ```
 import React from "react";
 import { StyledDiv, StyledTodoListHeader, StyledTodoListBox } from "./styles";
@@ -152,7 +155,8 @@ export default TodoList;
 
 <br/>
 
-### 🌳값을 가져오고 추가 및 삭제 기능 추가 - todos.js🌳
+### 🌳값을 가져오고 추가 및 삭제 기능 추가🌳
+#### 🔎todos.js
 ```
 // axios 요청이 들어가는 모든 모듈
 import axios from "axios";
@@ -173,7 +177,7 @@ export { getTodos, addTodo };
 
 <br/>
 
-### input.jsx
+#### 🔎input.jsx
 import addTodo와 dispatch(addTodo(newTodo)); 각각 변경해준다
 #### 수정 전
 ```
@@ -215,6 +219,7 @@ mutation.mutate(newTodo);
 이를 위해서 queryClient.invalidateQueries를 사용해서 todos를 가져와서 적용시키면 된다
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/9e38792c-fbf0-4c50-9d98-5a4aaae6027c)
 
+#### 🔎Input.jsx
 ```
 // 리액트 뭐리 관련 코드
   const queryClient = useQueryClient();
