@@ -1,15 +1,15 @@
-# React Query
+# 🌻React Query🌻
 다른 서버와의 API 통신과 비동신 데이터 관리를 위해 Redux-thunk, Redux-Saga 등 미들웨어를 채택해서 사용할 수 있었다. 그런데 문제가 있었음
 
 <br/>
 
-## 문제점
+## 🌼문제점🌼
 1. 보일러 플레이트 : 코드량이 너무 많음 <br/>
 2. 규격화 문제 : Redux가 비동기 데이터 관리를 위한 전문 라이브러리가 아님<br/>
 
 <br/>
 
-## 리액트 쿼리 장점
+## 🌼리액트 쿼리 장점🌼
 1. 너무 쉽고 책임에서 자유로움 <br/>
 2. 보일러 플레이트 만들다가 오류가 날 일이 없다 <br/>
 3. 내가 만든 부분이 아니기에 내 잘못 아님 <br/>
@@ -17,7 +17,7 @@
 
 <br/>
 
-## react query 설치
+## 🌳react query 설치🌳
 ```
 yarn add react-query
 ```
@@ -26,7 +26,7 @@ yarn add react-query
 
 <hr/>
 
-## db.json에 저장된 값 가져오기
+## 🌳db.json에 저장된 값 가져오기🌳
 ### db.json 작성 - db.json
 ```
 {
@@ -55,7 +55,7 @@ yarn add react-query
 
 <br/>
 
-### db.json 로컬호스트 포트 변수에 저장해주고 사용하기
+### 🌳db.json 로컬호스트 포트 변수에 저장해주고 사용하기🌳
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/f38f4621-3a61-45dd-8da7-2a6e0b22b9b9)
 
 <br/>
@@ -113,7 +113,7 @@ const {isLoading, isError, data} = useQuery("todos", getTodos);
 
 <br/>
 
-### 여기서 data를 가져올때 안가져와지면 data.data를 해줘본다
+### 🌳여기서 data를 가져올때 안가져와지면 data.data를 해줘본다🌳
 ```
 import React from "react";
 import { StyledDiv, StyledTodoListHeader, StyledTodoListBox } from "./styles";
@@ -152,7 +152,7 @@ export default TodoList;
 
 <br/>
 
-### 값을 가져오고 추가 및 삭제 기능 추가 - todos.js
+### 🌳값을 가져오고 추가 및 삭제 기능 추가 - todos.js🌳
 ```
 // axios 요청이 들어가는 모든 모듈
 import axios from "axios";
@@ -211,8 +211,8 @@ mutation.mutate(newTodo);
 
 <br/>
 
-### 근데 문제가 있다. 데이터를 추가하고 새로고침을 해야 추가된 내용이 적용된다 이를 위해서
-queryClient.invalidateQueries를 사용해서 todos를 가져와서 적용시키면 된다
+### 🌳근데 문제가 있다. 데이터를 추가하고 새로고침을 해야 추가된 내용이 적용된다🌳
+이를 위해서 queryClient.invalidateQueries를 사용해서 todos를 가져와서 적용시키면 된다
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/9e38792c-fbf0-4c50-9d98-5a4aaae6027c)
 
 ```
