@@ -23,6 +23,8 @@
 yarn add react-query
 ```
 
+<br/>
+
 ## db.json에 저장된 값 가져오기
 ### db.json 작성 - db.json
 ```
@@ -50,8 +52,12 @@ yarn add react-query
 }
 ```
 
+<br/>
+
 ### db.json 로컬호스트 포트 변수에 저장해주고 사용하기
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/f38f4621-3a61-45dd-8da7-2a6e0b22b9b9)
+
+<br/>
 
 ### App.jsx
 ```js
@@ -70,6 +76,8 @@ const App = () => {
 
 export default App;
 ```
+
+<br/>
 
 ### todos.js
 잘 불러와지는지 확인하기 위해서 console 찍어봄
@@ -101,6 +109,8 @@ const {isLoading, isError, data} = useQuery("todos", getTodos);
     return <h1>오류가 발생했습니다</h1>;
   }
 ```
+
+<br/>
 
 ### 여기서 data를 가져올때 안가져와지면 data.data를 해줘본다
 ```
@@ -139,6 +149,8 @@ function TodoList({ isActive }) {
 export default TodoList;
 ```
 
+<br/>
+
 ### 값을 가져오고 추가 및 삭제 기능 추가 - todos.js
 ```
 // axios 요청이 들어가는 모든 모듈
@@ -157,6 +169,8 @@ const addTodo = async (newTodo) => {
 
 export { getTodos, addTodo };
 ```
+
+<br/>
 
 ### input.jsx
 import addTodo와 dispatch(addTodo(newTodo)); 각각 변경해준다
@@ -193,6 +207,8 @@ dispatch(addTodo(newTodo)); 대신 mutation 사용
 ```
 mutation.mutate(newTodo);
 ```
+
+<br/>
 
 ### 근데 문제가 있다. 데이터를 추가하고 새로고침을 해야 추가된 내용이 적용된다 이를 위해서
 queryClient.invalidateQueries를 사용해서 todos를 가져와서 적용시키면 된다
