@@ -24,8 +24,7 @@ yarn add react-query
 ```
 
 ## db.json에 저장된 값 가져오기
-### db.json 작성
-#### db.json
+### db.json 작성 - db.json
 ```
 {
   "todos": [
@@ -54,7 +53,7 @@ yarn add react-query
 ### db.json 로컬호스트 포트 변수에 저장해주고 사용하기
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/f38f4621-3a61-45dd-8da7-2a6e0b22b9b9)
 
-#### App.jsx
+### App.jsx
 ```js
 import React from "react";
 import Router from "./shared/Router";
@@ -72,7 +71,7 @@ const App = () => {
 export default App;
 ```
 
-#### todos.js
+### todos.js
 잘 불러와지는지 확인하기 위해서 console 찍어봄
 ```
 // axios 요청이 들어가는 모든 모듈
@@ -103,7 +102,7 @@ const {isLoading, isError, data} = useQuery("todos", getTodos);
   }
 ```
 
-여기서 data를 가져올때 안가져와지면 data.data를 해줘본다
+### 여기서 data를 가져올때 안가져와지면 data.data를 해줘본다
 ```
 import React from "react";
 import { StyledDiv, StyledTodoListHeader, StyledTodoListBox } from "./styles";
@@ -140,8 +139,7 @@ function TodoList({ isActive }) {
 export default TodoList;
 ```
 
-### 값을 가져오고 추가 및 삭제 기능 추가
-#### todos.js
+### 값을 가져오고 추가 및 삭제 기능 추가 - todos.js
 ```
 // axios 요청이 들어가는 모든 모듈
 import axios from "axios";
@@ -160,26 +158,26 @@ const addTodo = async (newTodo) => {
 export { getTodos, addTodo };
 ```
 
-#### input.jsx
+### input.jsx
 import addTodo와 dispatch(addTodo(newTodo)); 각각 변경해준다
-**수정 전**
+#### 수정 전
 ```
 import { addTodo } from "../../modules/todos";
 ```
-**수정 후**
+#### 수정 후
 ```
 import { addTodo } from "../../../api/todos";
 ```
 
 <br/>
 
-**수정 전**
-...
+#### 수정 전
+```
 // todo를 추가하는 reducer 호출
 // 인자 : payload
 dispatch(addTodo(newTodo));
 ```
-**수정 후**
+#### 수정 후
 리액트 관련 코드를 작성해주고
 ```
 // 리액트 뭐리 관련 코드
@@ -196,7 +194,7 @@ dispatch(addTodo(newTodo)); 대신 mutation 사용
 mutation.mutate(newTodo);
 ```
 
-근데 문제가 있다. 데이터를 추가하고 새로고침을 해야 추가된 내용이 적용된다 이를 위해서
+### 근데 문제가 있다. 데이터를 추가하고 새로고침을 해야 추가된 내용이 적용된다 이를 위해서
 queryClient.invalidateQueries를 사용해서 todos를 가져와서 적용시키면 된다
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/9e38792c-fbf0-4c50-9d98-5a4aaae6027c)
 
