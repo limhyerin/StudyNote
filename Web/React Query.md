@@ -27,7 +27,7 @@ yarn add react-query
 <hr/>
 
 ## 🌳db.json에 저장된 값 가져오기🌳
-### db.json 작성 - db.json
+### 🔎 db.json 작성 - db.json
 ```
 {
   "todos": [
