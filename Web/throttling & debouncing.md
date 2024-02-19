@@ -1,10 +1,14 @@
 # 🌻throttling & debouncing🌻
 >짧은 시간 간격으로 연속해서 이벤트가 발생했을 때 과도한 이벤트 핸들러 호출을 방지하는 기법
 
+<br/>
+
 ## 🌼react-router-dom 설치🌼
 ```
 yarn add react-router-dom
 ```
+
+<br/>
 
 ## 🌼App.jsx🌼
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/79fca85f-041a-4144-b0c1-89fee6e54453)
@@ -27,6 +31,8 @@ function App() {
 
 export default App;
 ```
+
+<br/>
 
 ## 🌼Home.jsx🌼
 ### 쓰로틀링 버튼 클릭시
@@ -94,6 +100,8 @@ export default function Home() {
   );
 }
 ```
+
+<br/>
 
 ## 🌼Company.jsx🌼
 ### 페이지 이동 버튼 클릭시
