@@ -92,3 +92,4 @@ const store = configureStore({
 
 export default store;
 ```
+![Uploading image.png…]()
