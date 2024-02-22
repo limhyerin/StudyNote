@@ -92,4 +92,5 @@ const store = configureStore({
 
 export default store;
 ```
-![Uploading image.png…]()
+![image](https://github.com/limhyerin/StudyNote/assets/70150896/b890fe27-e764-4c61-a5e5-a56cc4cd11f3)
+
