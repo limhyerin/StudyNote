@@ -1,15 +1,13 @@
-🌻Redux🌻
+# 🌻Redux🌻
 Redux 사용이유?
 
 - props drilling 문제를 해결하기 위해서 사용
-
 - state 변경, 관리할 때 사용
-
 
 
 Redux에는 몸무게의 값과 조건을 걸어서 수정하거나 그럴때 방법을 정해둠
 
-```
+```js
 // index.js
 import { provider } from 'react-redux';
 import { createStore } from 'redux'
@@ -41,7 +39,7 @@ ReactDOM.render(
 );
 ```
 
-```
+```js
 // App.js
 import "./App.css";
 import { useSelector } from "react-redux";
@@ -57,7 +55,7 @@ function App() {
 }
 ```
 
-```
+```js
 // index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -79,7 +77,7 @@ root.render(
 reportWebVitals();
 ```
 
-```
+```js
 // configStore.js
 import { configureStore } from "@reduxjs/toolkit";
 import data from "../modules/dataSlice";
