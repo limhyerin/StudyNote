@@ -31,7 +31,7 @@ tsc --init --rootDir ./src --outDir ./dist --esModuleInterop --module commonjs -
 <br/>
 
 ## 03 src 디렉토리 생성
->
+
 ░▒▓ ~/w/first_typescript ▓▒░ ls -al                     ░▒▓ ✔ │ 08:01:29 PM ▓▒░ <br/>
 total 32 <br/>
 drwxr-xr-x   5 chris  staff    160  5  4 20:11 . <br/>
