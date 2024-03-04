@@ -48,7 +48,9 @@ export function add(a, b) { // export를 넣지 않으면 import 할 수 없는 
 <br/>
 
 위의 주석문은 JSDoc. <br/>
-JSDoc은 API의 시그니처 (인자, 리턴 타입)를 설명하는 HTML 문서 생성기로, JSDoc으로 자바스크립트 소스코드에 타입 힌트를 제공할 수 있음 <br/>
+- JSDoc은 API의 시그니처 (인자, 리턴 타입)를 설명하는 HTML 문서 생성기
+- JSDoc으로 자바스크립트 소스코드에 타입 힌트를 제공할 수 있음
+
 이제, JSDoc으로 타입 힌트가 제공된 test.js의 .d.ts 파일을 만든다. 터미널에서 실행! <br/>
 ```bash
 npx tsc test.js --declaration --allowJs --emitDeclarationOnly --outDir types
