@@ -31,6 +31,8 @@ tsc --init --rootDir ./src --outDir ./dist --esModuleInterop --module commonjs -
 <br/>
 
 ## 03 src 디렉토리 생성
+![image](https://github.com/limhyerin/StudyNote/assets/70150896/2d4d41b0-06a7-4843-9c8d-456e12b02afd)
+
 
 ░▒▓ ~/w/first_typescript ▓▒░ ls -al                     ░▒▓ ✔ │ 08:01:29 PM ▓▒░ <br/>
 total 32 <br/>
