@@ -2,7 +2,7 @@
 [step1 문제 접속](#Step-1-문제-접속) <br>
 [step2 서버 생성하기 클릭](#Step-2-서버-생성하기-클릭) <br>
 [step3 리눅스 shell에서 nc 명령어를 이용해서 접속](#Step-3-리눅스-shell에서-nc-명령어를-이용해서-접속) <br>
-[step4 DH{…} 전체를 복사해서 플래그를 제출](#Step-4-DH{…}-전체를-복사해서-플래그를-제출) <br>
+[step4 DH{…} 전체를 복사해서 플래그를 제출](#Step-4-DH-전체를-복사해서-플래그를-제출) <br>
 
 <br>
 
@@ -38,8 +38,9 @@
 
 <br>
 
-## Step 4 DH{…} 전체를 복사해서 플래그를 제출
+## Step 4 DH 전체를 복사해서 플래그를 제출
 <hr>
+DH{…} 전체를 복사해서 플래그를 제출 <br/>
 DH{}까지 포함한 모든 문자열을 복사하여 FLAG 입력 칸에 붙여 넣고 제출하기 버튼을 클릭
 ![](https://velog.velcdn.com/images/hrnn00/post/87583ca5-a041-4fa0-b2f6-7d1ce6e6079c/image.png)
 
