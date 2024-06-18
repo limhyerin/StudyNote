@@ -1,9 +1,9 @@
 # 🌳bandit5 -> bandit6🌳
 > The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: <br/>
 
->human-readable <br/>
-1033 bytes in size <br/>
-not executable <br/>
+- human-readable 
+- 1033 bytes in size 
+- not executable
 
 다음 레벨의 비밀번호는 inhere 디렉토리 아래 파일 어딘가에 존재하는데 다음과 같은 속성을 가지고 있다 <br />
 그래서 사람만이 읽을 수 있으며 1033bytes의 사이즈이며 실행시킬 수 없는 파일을 찾아보면 된다.
