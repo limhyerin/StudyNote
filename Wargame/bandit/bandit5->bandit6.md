@@ -70,33 +70,3 @@ drwxr-x--- 2 root bandit5 4096 Jun 16 02:48 maybehere19
 bandit4@bandit:~/inhere$ cat ./-file00
 ˊu▒_▒}▒▒R▒▒▒O▒CxQ▒r▒▒j▒▒C3!▒bandit4@bandit:~/inhere$
 ```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file01
-Jx▒o▒▒-|▒▒▒eYq▒▒▒SP kC▒L▒▒▒▒bandit4@bandit:~/inhere$
-```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file02
-▒Њya▒<NO#▒H▒▒▒▒▒▒]▒6▒▒$▒▒bandit4@bandit:~/inhere$
-```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file03
-;L▒▒▒▒7▒η▒!S▒▒�.▒)▒▒4%▒w2▒bandit4@bandit:~/inhere$
-```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file04
-▒(▒F▒obandit4@bandit:~/inhere$
-```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file05
-ҵ▒▒W▒▒ӗ;▒T▒▒P
-Cў▒i ƾ▒>x▒bandit4@bandit:~/inhere$
-```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file06
-▒▒37x?▒=▒h▒▒*peN&▒▒I"▒{▒bandit4@bandit:~/inhere$
-```
-```ssh
-bandit4@bandit:~/inhere$ cat ./-file07
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
-bandit4@bandit:~/inhere$
-```
