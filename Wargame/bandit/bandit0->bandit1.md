@@ -8,10 +8,23 @@
 ## ☀️해결☀️
 ### 01 ls -l 명령어 사용 : 파일 확인
 👉 홈 디렉토리에서 ls -l 명령어를 통해 현재 홈 디렉토리 안에 있는 파일을 확인한다. <br/>
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/dd4dfb6f-4666-4fe8-ba94-b770249f6735)
+```ssh
+bandit0@bandit:~$ ls -l
+total 4
+-rw-r----- 1 bandit1 bandit0 437 Jun 16 02:47 readme
+```
 
 <br/>
 
 ### 02 cat 명령어 사용 : 파일 내용 확인
 👉 cat 명령어를 통해 해당 파일의 내용물을 확인해주면 끝 <br/>
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/a125ec6a-1c97-4e29-8ad2-cd63239cfab5)
+```ssh
+bandit0@bandit:~$ cat readme
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+
+The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```
