@@ -49,6 +49,7 @@ frillier        C8NOdI0sVylmdcSkTtJOLX1o28wGoRxo
 fiber's kgAZcUDzj0212EQ4t6RLVfUJnxq553V6
 palpitate       Z9MjBtZmENCHMeK8NzKGnHIBO5AtBswA
 garage  JBDHgJnbjwCho6aeXJcwoLmJyiBr6ERV
+...
 ```
 
 ### grep 명령어 : 특정 문자열(millionth) 찾기
