@@ -28,4 +28,36 @@ total 20
 
 <br/>
 
-문풀중~~
+grep 명령어를 이용해서 = 문자열이 포함된 부분을 찾으려고 했는데 되지 않았다. 
+```ssh
+bandit9@bandit:~$ cat data.txt | grep '='
+grep: (standard input): binary file matches
+```
+```ssh
+bandit9@bandit:~$ grep '=' data.txt
+grep: data.txt: binary file matches
+```
+
+<br/>
+
+cat 명령어를 이용해서 file의 내용을 확인해보았더니 이런식으로 되어있었기 때문이었다
+```ssh
+L▒▒▒D%.▒▒▒+
+'▒▒▒▒>▒▒▒d▒,▒\▒▒!▒▒^ZAxTG2▒▒▒>▒S/▒▒w▒▒▒O▒▒x7▒▒▒ l@▒▒`v▒Cx▒▒d9▒\▒▒Գ/▒▒$fs▒▒u+n▒M▒▒J;▒o▒▒j-▒|E:>0▒1X1\31▒▒▒/▒▒B▒ڦ,,/▒▒끀tK6▒{ܓ▒@▒J
+▒▒[▒▒▒ώ▒▒▒̙zWu▒▒DR▒3϶▒hn▒▒▒V▒▒,▒6▒Frםʪ▒▒▒▒
+▒Y▒▒▒dC▒▒▒ź8▒▒'䷹▒>'▒.&▒▒,s~Јߓ:▒?▒j▒▒▒▒cN▒
+                                         ▒▒q▒▒▒?:|`▒▒ن
+W▒r5▒▒▒▒bQ{?▒▒▒▒▒^▒%~U▒v▒▒?▒A▒7▒▒1▒▒S,Ā▒7▒ڸ▒▒▒98I▒▒zZ?▒sz▒h&▒▒7▒▒▒▒܌2▒_N▒▒!▒▒▒A▒~▒▒ԑ3   0▒s|:▒▒c▒3▒Z▒▒w8▒%O▒9▒▒▒=▒<▒3▒=▒▒▒ɲ▒SW▒>q▒Y▒▒m▒▒.▒múÜ▒(▒s▒Fk▒f▒▒t▒K▒▒▒Ǌ[dy▒x▒▒▒r▒▒▒▒Yog▒▒▒▒sq▒▒+9▒▒▒▒▒w▒
+```
+
+<br/>
+
+strings를 이용하여 문자열만 추출하고 여러개의 =이라고 했기때문에 ==를 찾아주면 password를 찾을 수 있었다.
+```ssh
+bandit9@bandit:~$ strings data.txt | grep '=='
+*N========== the
+========== password
+========== is
+w========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+bandit9@bandit:~$
+```
