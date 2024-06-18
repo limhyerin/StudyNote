@@ -1,7 +1,5 @@
 # 🌳bandit0 -> bandit1🌳
->The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
-
-<br/>
+>The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game. <br/>
 
 다음 레벨의 비밀번호는 readme 라는 파일 안에 저장되어 있는데 그것은 홈 디렉토리(home directory)에 있다. 
 
