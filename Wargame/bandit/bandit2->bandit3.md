@@ -20,6 +20,13 @@ total 4
 
 ### 02 cat 명령어 사용 : 파일 내용 확인
 ❗ space in this filename이라는 파일이 있는데 해당 파일을 cat 명령어와 함께 그대로 입력하게 되면 공백을 기준으로 각각 다른 파일 확은 디렉토리로 인식해서 오류가 발생하는 것을 볼 수 있다. <br/>
+```bash
+bandit2@bandit:~$ cat spaces in this filename
+cat: spaces: No such file or directory
+cat: in: No such file or directory
+cat: this: No such file or directory
+cat: filename: No such file or directory
+```
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/bfcf726a-88b9-410a-b87e-d41178a3548e)
 
 <br/>
