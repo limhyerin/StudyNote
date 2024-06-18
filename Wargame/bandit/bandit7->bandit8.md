@@ -68,6 +68,8 @@ garage  JBDHgJnbjwCho6aeXJcwoLmJyiBr6ERV
 |-E|찾을 패턴을 정규 표현식으로 찾는다|
 |-F|찾을 패턴을 문자열로 찾는다|
 
+[출처] https://coding-factory.tistory.com/802
+
 💡grep 명령어를 사용해서 data.txt 파일안에 millionth 문자열을 찾고 그 옆에 있는 password를 찾는다
 ```ssh
 bandit7@bandit:~$ cat data.txt | grep millionth
