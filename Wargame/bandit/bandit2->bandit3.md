@@ -14,7 +14,6 @@ total 4
 -rw-r----- 1 bandit3 bandit2 33 Jun 16 02:47 spaces in this filename
 ```
 
-
 <br/>
 
 ### 02 cat 명령어 사용 : 파일 내용 확인
