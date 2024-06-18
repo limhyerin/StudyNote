@@ -10,8 +10,10 @@ not executable <br/>
 
 <br/>
 
->hint commands
-ls , cd , cat , file , du , find
+**hint commands**
+>ls , cd , cat , file , du , find
+
+<br />
 
 ## ☀️해결☀️
 ### 01 ls -l 명령어 사용 : 파일 확인
