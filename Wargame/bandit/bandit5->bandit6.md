@@ -17,6 +17,7 @@ not executable <br/>
 - file : 파일 종류(type) 확인 <br/>
 - du(disk usage) : 파일, 디렉토리 용량 확인 <br/>
 - find : 파일 검색 <br/>
+
 |명령어|뜻|
 |------|---|
 |name|해당 이름의 파일을 찾음. 해당 이름에는 정규 표현식을 활용할 수 있음|
