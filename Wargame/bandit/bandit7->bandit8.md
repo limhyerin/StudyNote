@@ -53,7 +53,7 @@ garage  JBDHgJnbjwCho6aeXJcwoLmJyiBr6ERV
 ```
 
 ### grep 명령어 : 특정 문자열(millionth) 찾기
-#### grep
+#### grep 옵션
 |명령어|뜻|
 |------|---|
 |-c|일치하는 행의 수를 출력한다|
