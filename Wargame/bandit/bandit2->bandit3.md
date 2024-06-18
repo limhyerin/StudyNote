@@ -19,7 +19,7 @@
 
 <br/>
 
-💡 공백이 들어간 파일을 하나의 파일 혹은 디렉토리로 인식하도록 하기 위해서는 **큰따옴표(")** 혹은 **작은따옴표(')**를 사용하여 묶어주면 된다 <br/>
+💡 공백이 들어간 파일을 하나의 파일 혹은 디렉토리로 인식하도록 하기 위해서는 **큰따옴표(")** 혹은 **작은따옴표(')** 를 사용하여 묶어주면 된다 <br/>
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/02976bc8-b688-4218-a1f7-d09f79c0e08c)
 <br/>
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/eafff793-2d37-45b8-bffb-73fdcb99ead5)
