@@ -1,7 +1,7 @@
 # 🌳bandit1 -> bandit2🌳
 >The password for the next level is stored in a file called - located in the home directory <br/>
 
-다음 레벨의 비밀번호는 홈 디렉토리(home directory)안의 -라는 폴더 안에 있다.
+다음 레벨의 비밀번호는 홈 디렉토리(home directory)안의 -라는 파일 안에 있다.
 
 <br/>
 
