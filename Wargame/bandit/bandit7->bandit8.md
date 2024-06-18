@@ -53,7 +53,7 @@ garage  JBDHgJnbjwCho6aeXJcwoLmJyiBr6ERV
 ```
 
 ### grep 명령어 : 특정 문자열(millionth) 찾기
-#### grep 옵션
+#### 🛠️grep 옵션🛠️
 |명령어|뜻|
 |------|---|
 |-c|일치하는 행의 수를 출력한다|
@@ -69,6 +69,8 @@ garage  JBDHgJnbjwCho6aeXJcwoLmJyiBr6ERV
 |-F|찾을 패턴을 문자열로 찾는다|
 
 [출처] https://coding-factory.tistory.com/802
+
+<br/>
 
 💡grep 명령어를 사용해서 data.txt 파일안에 millionth 문자열을 찾고 그 옆에 있는 password를 찾는다
 ```ssh
