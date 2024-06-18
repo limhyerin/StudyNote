@@ -36,6 +36,7 @@
 |-ctime|n일 이내에 만들어진 파일을 찾음|
 |-mtime|n일 이내에 수정된 파일을 찾음|
 |-cnewer file|해당 파일보다 최근에 수정된 파일을 찾음|
+
 [출처]https://coding-factory.tistory.com/804
 
 <br />
