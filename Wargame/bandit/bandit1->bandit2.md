@@ -7,7 +7,7 @@ The password for the next level is stored in a file called - located in the home
 
 ## ☀️해결☀️
 ### 01 ls -l 명령어 사용 : 파일 확인
-홈 디렉토리에서 ls -l 명령어를 통해 현재 홈 디렉토리 안에 있는 파일을 확인한다. <br/>
+👉 홈 디렉토리에서 ls -l 명령어를 통해 현재 홈 디렉토리 안에 있는 파일을 확인한다. <br/>
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/c02e7bf3-cd64-4e61-bf22-0ba8f1080261)
 
 <br/>
