@@ -20,7 +20,7 @@ total 4
 
 ### 02 cat 명령어 사용 : 파일 내용 확인
 ❗ space in this filename이라는 파일이 있는데 해당 파일을 cat 명령어와 함께 그대로 입력하게 되면 공백을 기준으로 각각 다른 파일 확은 디렉토리로 인식해서 오류가 발생하는 것을 볼 수 있다. <br/>
-```bash
+```ssh
 bandit2@bandit:~$ cat spaces in this filename
 cat: spaces: No such file or directory
 cat: in: No such file or directory
@@ -32,6 +32,14 @@ cat: filename: No such file or directory
 <br/>
 
 💡 공백이 들어간 파일을 하나의 파일 혹은 디렉토리로 인식하도록 하기 위해서는 **큰따옴표(")** 혹은 **작은따옴표(')** 를 사용하여 묶어주면 된다 <br/>
+```ssh
+bandit2@bandit:~$ cat 'spaces in this filename'
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+```
+```ssh
+bandit2@bandit:~$ cat "spaces in this filename"
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+```
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/02976bc8-b688-4218-a1f7-d09f79c0e08c)
 
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/eafff793-2d37-45b8-bffb-73fdcb99ead5)
