@@ -19,4 +19,4 @@ cat 명령어를 통해 해당 파일의 내용물을 확인해주면 되는데 
 <br/>
 
 그래서 현재 위치 밑에 있는 - 폴더를 찾기 위해 cat ./-로 해주면 비밀번호를 찾을 수 있다.
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/36ab518d-f0da-4408-9fdc-8c7b28b0556f)
+![image](https://github.com/limhyerin/StudyNote/assets/70150896/4816a9dc-3612-40e9-8b5f-9747a30b3b1f)
