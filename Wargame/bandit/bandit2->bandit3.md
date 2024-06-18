@@ -13,7 +13,6 @@ bandit2@bandit:~$ ls -l
 total 4
 -rw-r----- 1 bandit3 bandit2 33 Jun 16 02:47 spaces in this filename
 ```
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/63efaec5-527e-453a-a95a-056cd98ff0e9)
 
 
 <br/>
@@ -27,7 +26,6 @@ cat: in: No such file or directory
 cat: this: No such file or directory
 cat: filename: No such file or directory
 ```
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/bfcf726a-88b9-410a-b87e-d41178a3548e)
 
 <br/>
 
@@ -40,7 +38,3 @@ MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 bandit2@bandit:~$ cat "spaces in this filename"
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/02976bc8-b688-4218-a1f7-d09f79c0e08c)
-
-![image](https://github.com/limhyerin/StudyNote/assets/70150896/eafff793-2d37-45b8-bffb-73fdcb99ead5)
-
