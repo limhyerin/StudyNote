@@ -9,7 +9,7 @@
 
 ## ☀️해결☀️
 ### 01 ls -l 명령어 사용 : 파일 확인
-👉 홈 디렉토리에서 ls -l 명령어를 통해 현재 위에 있는 파일을 확인한다. <br/>
+👉 홈 디렉토리에서 ls -l 명령어를 통해 현재 위치에 있는 파일을 확인한다. <br/>
 ```ssh
 bandit4@bandit:~$ ls -l
 total 4
@@ -21,8 +21,8 @@ drwxr-xr-x 2 root root 4096 Jun 16 02:48 inhere
 ### 02 cd 명령어 : 위치 이동
 👉 cd 명령어를 통해 inhere 디렉토리 내부로 이동한다. <br/>
 ```ssh
-bandit3@bandit:~$ cd inhere
-bandit3@bandit:~/inhere$
+bandit4@bandit:~$ cd inhere
+bandit4@bandit:~/inhere$
 ```
 
 <br/>
