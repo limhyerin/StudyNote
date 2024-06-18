@@ -8,7 +8,7 @@
 ## ☀️해결☀️
 ### 01 ls -l 명령어 사용 : 파일 확인
 👉 홈 디렉토리에서 ls -l 명령어를 통해 현재 홈 디렉토리 안에 있는 파일을 확인한다. <br/>
-```bash
+```ssh
 bandit2@bandit:~$ ls -l
 total 4
 -rw-r----- 1 bandit3 bandit2 33 Jun 16 02:47 spaces in this filename
