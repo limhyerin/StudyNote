@@ -23,6 +23,8 @@
 
 >ROT13
 컴퓨터로 사용되는 암호 알고리즘 가운데 가장 단순한 종류이다. 알파벳 글자를 13자리 밀어내는 것으로 만든다. 다음과 같은 테이블에 따라서 치환을 행한다.
+![image](https://github.com/limhyerin/StudyNote/assets/70150896/c72ada35-226b-4413-a672-957d9d1dea79)
+
 ![image](https://github.com/limhyerin/StudyNote/assets/70150896/59e5e597-9bbd-4556-9ab4-ef9869f05773)
 
 
