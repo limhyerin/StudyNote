@@ -4,6 +4,10 @@
 다음 단계의 비밀번호는 반복적으로 압축된 파일의 헥스덤프인 data.txt 파일에 저장됩니다. 이 수준의 경우 /tmp 아래에 작업할 수 있는 디렉토리를 만드는 것이 유용할 수 있습니다. 추측하기 어려운 디렉토리 이름으로 mkdir를 사용하세요. 또는 더 나은, "mktemp -d" 명령을 사용하세요. 그런 다음 cp를 사용하여 데이터 파일을 복사하고 mv를 사용하여 이름을 바꾸세요 (맨페이지를 읽으세요!)<br/>
 <br/>
 
+hexdump는 컴퓨터의 저장장치에 있는 컴퓨터의 데이터를 16진법으로 표시한것
+
+<br/>
+
 **hint commands**
 >grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, file
 
